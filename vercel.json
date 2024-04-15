@@ -1,0 +1,11 @@
+{
+    "functions": {
+      "api": {
+        "handler": "run.py"
+      }
+    },
+    "routes": [
+      { "handle": "api", "src": "/api/(.*)", "dest": "api/$1" }
+    ]
+  }
+  
