@@ -1,8 +1,8 @@
 {
     "functions": {
-      "api": {}
+        "api": {}
     },
     "routes": [
-      { "handle": "api", "src": "/api/(.*)", "dest": "api/$1" }
+        { "src": "/api/(.*)", "dest": "api/$1" }
     ]
 }
