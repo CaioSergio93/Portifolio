@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Portfólio</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+
+<body>
+    <header>
+        <h1>Meu Portfólio</h1>
+    </header>
+    
+    <main>
+        <section class="presentation">
+            <h2>Apresentação</h2>
+            <p>Este é o meu portfólio, onde compartilho alguns dos meus projetos:</p>
+            <ul>
+                <li>
+                    <h3>Projeto "Contatos"</h3>
+                    <p>Esse sistema é um sistema no qual possui meios de contato para trabalho.</p>
+                    <p>Tecnologias: Node.Js, Html5, Css e Bootstrap</p>
+                    <img src="/static/img/profile.jpeg" alt="Contatos para trabalho">
+                </li>
+                <!-- Adicione mais projetos conforme necessário -->
+            </ul>
+            <p>Para visualizar mais detalhes e o código fonte, confira meu perfil no <a href="https://github.com/CaioSergio93/my-profiles-web-node/tree/master" target="_blank" >GitHub</a>.</p>
+            <p>Este projeto está hospedado em <a href="https://my-profiles-web-node.vercel.app/" target="_blank" >Vercel</a>.</p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; Todos os direitos reservados a CaioS. Desenvolviment . - © 2024</p>
+    </footer>
+</body>
+</html>
